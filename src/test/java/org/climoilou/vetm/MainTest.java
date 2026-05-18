@@ -45,7 +45,7 @@ class MainTest {
 
     @Test
     void testOffsetSuperieur26() {
-        String result = Main.cesarCipher("abc", 27); // 27 ≡ 1
+        String result = Main.cesarCipher("abc", 27);
         assertEquals("bcd", result);
     }
 }
