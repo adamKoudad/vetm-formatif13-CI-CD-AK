@@ -20,6 +20,10 @@ public class Main {
         return cesarCipher(message, 26 - (offset % 26));
     }
 
+    public void bonjour() {
+        System.out.println("Hello ");
+    }
+
     public static void main(String[] args) {
         System.out.println(cesarCipher("bonjour", 1));
     }
