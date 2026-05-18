@@ -43,3 +43,6 @@ jobs:
 
       - name: Lint
         run: mvn -B formatter:validate --file pom.xml
+
+      - name: Vérification couverture JaCoCo
+        run: mvn -B jacoco:check --file pom.xml
